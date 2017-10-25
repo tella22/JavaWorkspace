@@ -21,9 +21,9 @@ public class Strings06 {
 		}while (frase.length()>max_length);
 
 		String mayusculas = frase.toUpperCase();
-
+		System.out.println(mayusculas);			
 		for (int cont=0; cont<mayusculas.length(); cont++){
-			char caracter = frase.charAt(pos);
+			char caracter = mayusculas.charAt(pos);
 			if(cons.indexOf(caracter) != -1){
 				contcons=contcons+1;
 			}else if(voc.indexOf(caracter) != -1){
