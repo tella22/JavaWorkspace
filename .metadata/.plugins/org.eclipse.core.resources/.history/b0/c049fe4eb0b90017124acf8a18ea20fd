@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Strings04 {
+
+	public static void main(String[] args) {
+		
+		String palabra;
+		int cont=0;
+		final int max_length=80;
+		
+		Scanner teclado = new Scanner(System.in);
+		do{
+			System.out.println("La palabra debe tener como maximo " + max_length + " caracteres");
+			palabra=teclado.nextLine();
+		}while (palabra.length()>max_length);
+		
+	}
+
+}

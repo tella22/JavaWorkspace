@@ -25,6 +25,7 @@ public class Strings03 {
 					System.out.println(cont+") La posicion de la palabra " +palabra+ " es " +pos);
 				}
 			}
+			
 		}else{
 			System.out.println("La palabra no esta en la frase.");
 		}

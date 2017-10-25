@@ -1,0 +1,12 @@
+
+public class Strings06 {
+
+	public static void main(String[] args) {
+		
+		String frase;
+		int num;
+		final int max_length=80;
+		
+	}
+
+}
