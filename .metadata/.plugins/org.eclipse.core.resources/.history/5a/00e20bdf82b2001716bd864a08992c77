@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class H3Ej07 {
+
+	public static void main(String[] args) {
+		String a="";
+		
+		while (a != ""){
+			Scanner teclado = new Scanner(System.in);
+			System.out.println("Escribe una frase ");
+			a=teclado.nextInt();
+		}
+	}
+}

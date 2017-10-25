@@ -1,0 +1,16 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		int alfa=4;
+				
+	
+		alfa--;	
+		
+		System.out.println(alfa);
+		
+		
+		
+	}
+
+}

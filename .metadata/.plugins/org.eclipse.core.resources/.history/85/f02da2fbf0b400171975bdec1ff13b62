@@ -1,0 +1,18 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		int alfa=9;
+		
+		final float E = (float) 2.71828;
+				
+	
+		alfa += alfa;	
+		
+		System.out.println(alfa);
+		
+		
+		
+	}
+
+}

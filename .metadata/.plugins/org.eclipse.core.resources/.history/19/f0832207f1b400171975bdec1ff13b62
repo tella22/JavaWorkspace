@@ -1,0 +1,16 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		int alfa=9;
+				
+	
+		alfa += alfa;	
+		
+		System.out.println(alfa);
+		
+		
+		
+	}
+
+}

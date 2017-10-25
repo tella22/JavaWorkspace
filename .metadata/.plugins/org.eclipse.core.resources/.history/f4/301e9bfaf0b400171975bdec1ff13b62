@@ -1,0 +1,20 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		double unDouble=10;
+		int alfa=5;
+		
+		final float E = (float) 2.71828;
+				
+	
+		alfa += alfa;	
+		
+		System.out.println(unDouble);
+		System.out.println(alfa);
+		
+		
+		
+	}
+
+}

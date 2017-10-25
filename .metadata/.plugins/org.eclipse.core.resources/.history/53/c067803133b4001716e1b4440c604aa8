@@ -1,0 +1,14 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		double unDouble=0;
+		int unInt=5;
+				
+		unDouble =(double)(5 + unInt);
+		unInt = (int)(2.5 * unInt/ unDouble);	
+		
+		System.out.println(unInt + unDouble);
+	}
+
+}

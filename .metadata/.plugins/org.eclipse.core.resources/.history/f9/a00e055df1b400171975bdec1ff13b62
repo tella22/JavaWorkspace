@@ -1,0 +1,17 @@
+
+public class Ej {
+
+	public static void main(String[] args) {
+		int alfa=4;
+		int beta=9;
+				
+	
+		alfa=alfa--  beta;	
+		
+		System.out.println(alfa);
+		
+		
+		
+	}
+
+}

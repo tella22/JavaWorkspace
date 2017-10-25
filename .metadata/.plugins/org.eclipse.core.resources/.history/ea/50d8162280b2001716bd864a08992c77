@@ -1,0 +1,12 @@
+
+public class H3Ej03 {
+
+	public static void main(String[] args) {
+		for (int k=0; k<101; k=k+1){
+			if (k % 2 ==0){
+				System.out.println(k + "es par");
+			}
+		}
+	}
+
+}

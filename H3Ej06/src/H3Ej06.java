@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class H3Ej06 {
+
+	public static void main(String[] args) {
+		int num;		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Escribe un numero: ");
+		num=teclado.nextInt();
+		
+		for (int k=1; k<=num; k=k+1){
+			if (k>0 && k<10){
+				System.out.println(k + " es numero natural");
+			}
+		}
+	}
+}

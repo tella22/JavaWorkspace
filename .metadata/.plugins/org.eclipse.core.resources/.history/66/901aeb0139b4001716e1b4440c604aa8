@@ -1,0 +1,29 @@
+
+public class H3Ej19 {
+
+	public static void main(String[] args) {
+		
+		int hora=0;
+		int minuto=0;
+		int segundo=0;
+		int dia=0;
+		
+		for (segundo=0; segundo<61; segundo=segundo+1){
+			if (segundo==60){
+				segundo=0;
+				minuto=minuto+1;
+				if (minuto==60){
+					minuto=0;
+					hora=hora+1;
+				}
+				if (hora==24){
+					hora=0;
+					dia=dia+1;
+				}
+			}
+			System.out.println(hora + " : " + minuto + " : " + segundo );
+		}
+		
+	}
+
+}

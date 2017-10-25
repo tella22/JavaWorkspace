@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Strings01 {
+
+	public static void main(String[] args) {
+		String palabra;
+		int cont=0;
+		final int max_length=80;
+		String fin="";
+		
+		
+		Scanner teclado = new Scanner(System.in);
+		int length;
+		do{
+			System.out.println("introduce una frase de hasta " + max_length);
+			palabra=teclado.nextLine();
+			length = palabra.length();
+		}while (length>max_length);{
+			System.out.println("introduce una frase de hasta " + max_length);
+			palabra=teclado.nextLine();
+			}
+		while (cont<length){
+			char res = palabra.charAt (cont);
+			cont++;
+			fin=fin+res;
+			System.out.println(fin);
+		}
+			
+			
+		}
+		
+	}
+
+

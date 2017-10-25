@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class H3Ej07 {
+
+	public static void main(String[] args) {
+		String a="";
+		int	cont=0;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Escribe una frase ");
+		a=teclado.next();
+		
+		while (a.equals("0") != true){
+			System.out.println("Escribe una frase (para terminar pulse 0) ");
+			a=teclado.next();
+			cont=cont+1;
+		}
+		
+		System.out.println("Has introducido " + cont);
+	}
+}

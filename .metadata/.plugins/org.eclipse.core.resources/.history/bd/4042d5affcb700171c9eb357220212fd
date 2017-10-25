@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Strings01 {
+
+	public static void main(String[] args) {
+		String palabra;
+		int cont=0;
+		String fin="";
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduce una palabra");
+		palabra=teclado.nextLine();
+		int length = palabra.length();
+		while (cont<length){
+			char res = palabra.charAt (cont);
+			cont++;
+			fin=fin+res;
+			System.out.println(fin);
+		}
+		
+	}
+
+}
