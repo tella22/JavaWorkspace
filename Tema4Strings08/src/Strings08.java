@@ -8,6 +8,8 @@ public class Strings08 {
 		final int max_length=80;
 		String may="ABCDEFGHJIKLMNÑOPQRSTUVWXYZ ";
 		boolean mayus;
+		int num;
+		String cifrado="";
 
 		Scanner teclado = new Scanner(System.in);
 		
@@ -25,8 +27,17 @@ public class Strings08 {
 			}
 		}while (mayus==false);
 		
-		System.out.println("xDD");
+		do {
+			System.out.println("Ahora introduce un numero entre 1 y 10 para el cifrado");
+			num=teclado.nextInt();
+		}while(num < 1 || num > 10);
 		
+		for (int cont=0; cont<frase.length(); cont++){
+			char caracter2 = frase.charAt(cont);
+			caracter2=(char) (caracter2+num);		
+			cifrado=cifrado+caracter2;
+		}
+		System.out.println(cifrado);
 	}
 
 }
