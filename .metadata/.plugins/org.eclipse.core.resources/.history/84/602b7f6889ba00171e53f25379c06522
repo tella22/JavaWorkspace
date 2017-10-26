@@ -9,7 +9,7 @@ public class Strings02 {
 		int may=0;
 		int min=0;
 		int pos=0;
-		
+
 		Scanner teclado = new Scanner(System.in);
 		do{
 			System.out.println("La palabra debe tener como maximo " + max_length + " caracteres");

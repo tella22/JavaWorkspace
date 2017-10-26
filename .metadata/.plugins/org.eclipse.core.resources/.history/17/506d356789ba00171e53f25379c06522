@@ -10,7 +10,7 @@ public class Strings08 {
 		boolean mayus;
 		int num;
 		String cifrado="";
-		
+
 		Scanner teclado = new Scanner(System.in);
 		
 		do{
