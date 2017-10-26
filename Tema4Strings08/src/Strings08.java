@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Strings08 {
+
+	public static void main(String[] args) {
+		
+		String frase;
+		final int max_length=80;
+		String may="ABCDEFGHJIKLMNÑOPQRSTUVWXYZ ";
+		boolean mayus;
+
+		Scanner teclado = new Scanner(System.in);
+		
+		do{
+			System.out.println("Introduce una frase en mayúsculas");
+			frase=teclado.nextLine();
+			mayus = true;
+			for (int cont=0; cont<frase.length() && mayus == true; cont++){
+				char caracter = frase.charAt(cont);
+				if(may.indexOf(caracter) != -1){
+				}else{
+					System.out.println("El caracter en posición "+ cont + " no es mayúscula");
+					mayus = false;
+				}
+			}
+		}while (mayus==false);
+		
+		System.out.println("xDD");
+		
+	}
+
+}

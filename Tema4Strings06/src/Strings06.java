@@ -16,7 +16,7 @@ public class Strings06 {
 
 		Scanner teclado = new Scanner(System.in);
 		do{
-			System.out.println("La palabra debe tener como maximo " + max_length + " caracteres");
+			System.out.println("La frase debe tener como maximo " + max_length + " caracteres");
 			frase=teclado.nextLine();
 		}while (frase.length()>max_length);
 
@@ -34,8 +34,8 @@ public class Strings06 {
 			pos++;		
 		}
 		System.out.println("Tiene " + contnum + " numeros");			
-		System.out.println("Tiene " + contcons + " mayusculas");			
-		System.out.println("Tiene " + contvoc + " minusculas");
+		System.out.println("Tiene " + contcons + " consonantes");			
+		System.out.println("Tiene " + contvoc + " vocales");
 	}
 
 }

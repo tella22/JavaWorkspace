@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Strings08 {
+
+	public static void main(String[] args) {
+		
+		String frase;
+		final int max_length=80;
+		String may="ABCDEFGHJIKLMNÑOPQRSTUVWXYZ";
+
+		Scanner teclado = new Scanner(System.in);
+		
+		do{
+			System.out.println("La frase debe estar en mayusculas");
+			frase=teclado.nextLine();
+		}while (frase.length()>max_length);
+		
+	}
+
+}

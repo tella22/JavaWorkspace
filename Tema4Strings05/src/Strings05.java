@@ -7,7 +7,6 @@ public class Strings05 {
 		String frase;
 		String par="";
 		String impar="";
-		String pos="";
 		final int max_length=80;
 		
 		Scanner teclado = new Scanner(System.in);
