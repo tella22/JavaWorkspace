@@ -25,6 +25,7 @@ public class Strings05 {
 		System.out.println(par);
 		System.out.println(impar);
 		
+		teclado.close();
 	}
 }
 

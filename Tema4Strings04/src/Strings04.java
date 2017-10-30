@@ -31,7 +31,7 @@ public class Strings04 {
 		}else{
 			System.out.println(frase.toUpperCase());
 		}
-		
+		teclado.close();
 	}
 
 }

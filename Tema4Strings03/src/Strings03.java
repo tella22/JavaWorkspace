@@ -29,7 +29,7 @@ public class Strings03 {
 		}else{
 			System.out.println("La palabra no esta en la frase.");
 		}
-
+		teclado.close();
 	}
 
 }

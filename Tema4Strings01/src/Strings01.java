@@ -21,6 +21,7 @@ public class Strings01 {
 			}
 		}	
 			
+		teclado.close();
 	}
 		
 }

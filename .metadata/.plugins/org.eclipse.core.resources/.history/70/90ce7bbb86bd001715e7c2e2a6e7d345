@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Strings10 {
+
+	public static void main(String[] args) {
+		
+		String frase;
+		final int max_length=60;
+		int[] letras = new int[25];
+
+		Scanner teclado = new Scanner(System.in);
+		do{
+			System.out.println("La frase debe tener como maximo " + max_length + " caracteres");
+			frase=teclado.nextLine();
+		}while (frase.length()>max_length);
+		
+		String mayusculas = frase.toUpperCase();
+
+		for (int i=0; i<frase.length(); i++){
+			mayusculas.charAt(i);
+			int caracter = mayusculas.codePointAt(i);
+			int resta = caracter-65;
+			System.out.println(letras + resta);
+			
+		}
+		
+	}
+
+}

@@ -5,7 +5,6 @@ public class Strings08 {
 	public static void main(String[] args) {
 		
 		String frase;
-		final int max_length=80;
 		String may="ABCDEFGHJIKLMNÑOPQRSTUVWXYZ ";
 		boolean mayus;
 		int num;
@@ -38,6 +37,7 @@ public class Strings08 {
 			cifrado=cifrado+caracter2;
 		}
 		System.out.println(cifrado);
+		teclado.close();
 	}
 
 }

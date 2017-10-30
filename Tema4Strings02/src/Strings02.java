@@ -29,5 +29,6 @@ public class Strings02 {
 		System.out.println("La frase introducida tiene " + may + " mayusculas");
 		System.out.println("La frase introducida tiene " + min + " minusculas");
 		
+		teclado.close();
 	}
 }

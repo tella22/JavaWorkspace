@@ -35,6 +35,7 @@ public class Strings07 {
 		System.out.println("Tiene " + contmay + " mayusculas");			
 		System.out.println("Tiene " + contmin + " minusculas");
 		
+		teclado.close();
 	}
 
 }

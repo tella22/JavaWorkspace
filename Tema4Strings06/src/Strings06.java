@@ -36,6 +36,8 @@ public class Strings06 {
 		System.out.println("Tiene " + contnum + " numeros");			
 		System.out.println("Tiene " + contcons + " consonantes");			
 		System.out.println("Tiene " + contvoc + " vocales");
+		
+		teclado.close();
 	}
 
 }

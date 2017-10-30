@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;max_length&apos; in &apos;Strings10.main(...)&apos; to &apos;MAX_LENGTH&apos;&#x0D;&#x0A;- Original project: &apos;Tema4Strings10&apos;&#x0D;&#x0A;- Original element: &apos;Strings10.main(String[]).max_length&apos;&#x0D;&#x0A;- Renamed element: &apos;max_length&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;max_length&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Strings10.java[Strings10~main~\[QString;@max_length!123!146!133!142!I!67108880!false" name="MAX_LENGTH" references="true" stamp="1509378246075" version="1.0"/>
+</session>
