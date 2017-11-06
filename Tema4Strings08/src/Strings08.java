@@ -3,15 +3,19 @@ import java.util.Scanner;
 public class Strings08 {
 
 	public static void main(String[] args) {
-		
+
 		String frase;
 		String may="ABCDEFGHJIKLMNÑOPQRSTUVWXYZ ";
 		boolean mayus;
 		int num;
 		String cifrado="";
-		
+		String pre;
+		String space=" ";
+		String C="C";
+		String D="D";
+
 		Scanner teclado = new Scanner(System.in);
-		
+
 		do{
 			System.out.println("Introduce una frase en mayúsculas");
 			frase=teclado.nextLine();
@@ -25,23 +29,46 @@ public class Strings08 {
 				}
 			}
 		}while (mayus==false);
-		
-		do {
-			System.out.println("Ahora introduce un numero entre 1 y 10 para el cifrado");
-			num=teclado.nextInt();
-		}while(num < 1 || num > 10);
 
-		for (int cont=0; cont<frase.length(); cont++){
-			char caracter2 = frase.charAt(cont);
-			if(caracter2>=65 && caracter2<=90) {
-				caracter2=(char) (caracter2+num);		
-				cifrado=cifrado+caracter2;
-			}else {
-				cifrado=cifrado+space;
+
+		do{
+			System.out.println("Introduce C-(Cifrar) o D-(Descifrar)");
+			pre=teclado.nextLine();
+		}while(pre != C || pre != D);
+
+		if (pre == C){
+			do {
+				System.out.println("Ahora introduce un numero entre 1 y 10 para el cifrado");
+				num=teclado.nextInt();
+			}while(num < 1 || num > 10);
+
+			for (int cont=0; cont<frase.length(); cont++){
+				char caracter2 = frase.charAt(cont);
+				if(caracter2 >= 65 && caracter2<=90){
+					caracter2=(char) (caracter2+num);		
+					cifrado=cifrado+caracter2;
+				}else{
+					cifrado=cifrado+space;
+				}
 			}
-		}
-		System.out.println(cifrado);
-		teclado.close();
-	}
+		}else if (pre == D){
+			do {
+				System.out.println("Ahora introduce un numero entre 1 y 10 para el descifrado");
+				num=teclado.nextInt();
+			}while(num < 1 || num > 10);
 
+			for (int cont=0; cont<frase.length(); cont++){
+				char caracter2 = frase.charAt(cont);
+				if(caracter2 >= 65 && caracter2<=90){
+					caracter2=(char) (caracter2-num);		
+					cifrado=cifrado+caracter2;
+				}else{
+					cifrado=cifrado+space;
+				}
+			}
+			System.out.println(cifrado);
+			teclado.close();
+		}
+
+	}
 }
